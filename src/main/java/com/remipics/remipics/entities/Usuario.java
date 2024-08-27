@@ -17,4 +17,5 @@ public class Usuario {
     private String fecha_naci;
     private String sexo;
     private String contraseña;
+
 }
