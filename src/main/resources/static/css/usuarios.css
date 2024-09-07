@@ -1,13 +1,62 @@
-
+/* Contenedor general */
 #general {
-    background: #00A0B0;
+    background-color: #61ADA0;
+    padding: 30px;
+    border-radius: 8px;
 }
 
+/* Tarjeta */
 #card {
-    background: #00A0B0;
+    background-color: #EFF3CD;
+    border-bottom: 2px solid #61ADA0;
 }
 
+/* Título */
 #titulo {
-    color: #6A4A3C;
+    color: #248F8D;
+    font-size: 28px;
+    font-weight: 600;
     text-align: center;
+}
+
+/* Tabla */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+/* Encabezado de la tabla */
+thead th {
+    background-color: #f1f4f9;
+    color: #34495e;
+    font-weight: 600;
+    border-bottom: 2px solid #B2D5BA;
+}
+
+/* Cuerpo de la tabla */
+tbody td {
+    color: #2c3e50;
+    padding: 12px;
+    vertical-align: middle;
+    border-top: 1px solid #B2D5BA;
+}
+
+/* Filas de la tabla */
+.table-hover tbody tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Bordes de la tabla */
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #B2D5BA;
+}
+
+/* Filas alternadas de la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #B2D5BA;
 }
